@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  2017-0411-testInfiniteScroll
+//
+//  Created by 007 on 2017/4/11.
+//  Copyright © 2017年 wkj. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Masonry.h"
+#import "UIView+FrameAddition.h"
+
+
+#define COLOR_HEX(h,a) [UIColor colorWithRed:((h>>16)&0xFF)/255.0 green:((h>>8)&0xFF)/255.0 blue:(h&0xFF)/255.0 alpha:(a)] 
+
+
+#endif /* PrefixHeader_pch */
