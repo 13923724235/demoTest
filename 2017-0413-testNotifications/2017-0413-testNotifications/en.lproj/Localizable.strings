@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  2017-0413-testNotifications
+
+  Created by 007 on 2017/4/14.
+  Copyright © 2017年 wkj. All rights reserved.
+*/
+
+"Name_FORMAT" = "%@ love %@ ";

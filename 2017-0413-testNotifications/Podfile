@@ -1,0 +1,7 @@
+platform :ios, ‘8.0’ 
+target '2017-0413-testNotifications'do
+
+pod 'JPush'
+pod 'AFNetworking'
+
+end

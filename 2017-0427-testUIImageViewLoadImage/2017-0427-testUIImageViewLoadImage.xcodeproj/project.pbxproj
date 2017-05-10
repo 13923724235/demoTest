@@ -13,6 +13,8 @@
 		155703FD1EB1CCA5004DB309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155703FB1EB1CCA5004DB309 /* Main.storyboard */; };
 		155703FF1EB1CCA5004DB309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155703FE1EB1CCA5004DB309 /* Assets.xcassets */; };
 		155704021EB1CCA5004DB309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155704001EB1CCA5004DB309 /* LaunchScreen.storyboard */; };
+		1557040B1EB1CCB9004DB309 /* UIImageView+SDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1557040A1EB1CCB9004DB309 /* UIImageView+SDCache.m */; };
+		3B14B5443A8E00447BF45369 /* libPods-2017-0427-testUIImageViewLoadImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9764FDC5A7C87C9F3E4E479C /* libPods-2017-0427-testUIImageViewLoadImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		155703FE1EB1CCA5004DB309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		155704011EB1CCA5004DB309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		155704031EB1CCA5004DB309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		155704091EB1CCB9004DB309 /* UIImageView+SDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDCache.h"; sourceTree = "<group>"; };
+		1557040A1EB1CCB9004DB309 /* UIImageView+SDCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDCache.m"; sourceTree = "<group>"; };
+		40537BCDF6A95F7B6D975AC7 /* Pods-2017-0427-testUIImageViewLoadImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2017-0427-testUIImageViewLoadImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-2017-0427-testUIImageViewLoadImage/Pods-2017-0427-testUIImageViewLoadImage.debug.xcconfig"; sourceTree = "<group>"; };
+		41A24BE1053C132E5C36863A /* Pods-2017-0427-testUIImageViewLoadImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2017-0427-testUIImageViewLoadImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-2017-0427-testUIImageViewLoadImage/Pods-2017-0427-testUIImageViewLoadImage.release.xcconfig"; sourceTree = "<group>"; };
+		9764FDC5A7C87C9F3E4E479C /* libPods-2017-0427-testUIImageViewLoadImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-2017-0427-testUIImageViewLoadImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B14B5443A8E00447BF45369 /* libPods-2017-0427-testUIImageViewLoadImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +52,8 @@
 			children = (
 				155703F11EB1CCA5004DB309 /* 2017-0427-testUIImageViewLoadImage */,
 				155703F01EB1CCA5004DB309 /* Products */,
+				6261155AD9E12F2F2FF8EF17 /* Pods */,
+				3ACBDE539C99B77BFF14718A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +68,8 @@
 		155703F11EB1CCA5004DB309 /* 2017-0427-testUIImageViewLoadImage */ = {
 			isa = PBXGroup;
 			children = (
+				155704091EB1CCB9004DB309 /* UIImageView+SDCache.h */,
+				1557040A1EB1CCB9004DB309 /* UIImageView+SDCache.m */,
 				155703F51EB1CCA5004DB309 /* AppDelegate.h */,
 				155703F61EB1CCA5004DB309 /* AppDelegate.m */,
 				155703F81EB1CCA5004DB309 /* ViewController.h */,
@@ -79,6 +91,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3ACBDE539C99B77BFF14718A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9764FDC5A7C87C9F3E4E479C /* libPods-2017-0427-testUIImageViewLoadImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6261155AD9E12F2F2FF8EF17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40537BCDF6A95F7B6D975AC7 /* Pods-2017-0427-testUIImageViewLoadImage.debug.xcconfig */,
+				41A24BE1053C132E5C36863A /* Pods-2017-0427-testUIImageViewLoadImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 155704061EB1CCA5004DB309 /* Build configuration list for PBXNativeTarget "2017-0427-testUIImageViewLoadImage" */;
 			buildPhases = (
+				6AB89A7A0509E5D1A031DA7D /* [CP] Check Pods Manifest.lock */,
 				155703EB1EB1CCA5004DB309 /* Sources */,
 				155703EC1EB1CCA5004DB309 /* Frameworks */,
 				155703ED1EB1CCA5004DB309 /* Resources */,
+				AF261A78C649BC4E80958071 /* [CP] Embed Pods Frameworks */,
+				EB68D879B9DD5EFDF7C77AD8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +177,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6AB89A7A0509E5D1A031DA7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF261A78C649BC4E80958071 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2017-0427-testUIImageViewLoadImage/Pods-2017-0427-testUIImageViewLoadImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB68D879B9DD5EFDF7C77AD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2017-0427-testUIImageViewLoadImage/Pods-2017-0427-testUIImageViewLoadImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		155703EB1EB1CCA5004DB309 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -152,6 +232,7 @@
 			files = (
 				155703FA1EB1CCA5004DB309 /* ViewController.m in Sources */,
 				155703F71EB1CCA5004DB309 /* AppDelegate.m in Sources */,
+				1557040B1EB1CCB9004DB309 /* UIImageView+SDCache.m in Sources */,
 				155703F41EB1CCA5004DB309 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +353,7 @@
 		};
 		155704071EB1CCA5004DB309 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40537BCDF6A95F7B6D975AC7 /* Pods-2017-0427-testUIImageViewLoadImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "2017-0427-testUIImageViewLoadImage/Info.plist";
@@ -283,6 +365,7 @@
 		};
 		155704081EB1CCA5004DB309 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41A24BE1053C132E5C36863A /* Pods-2017-0427-testUIImageViewLoadImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "2017-0427-testUIImageViewLoadImage/Info.plist";
