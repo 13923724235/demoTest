@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7323DEFA210A0B1300440BD5 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7323DEF9210A0B1300440BD5 /* ViewController2.m */; };
 		733F8F882109EE7600065872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 733F8F872109EE7600065872 /* AppDelegate.m */; };
 		733F8F8B2109EE7600065872 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733F8F8A2109EE7600065872 /* ViewController.m */; };
 		733F8F8E2109EE7600065872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733F8F8C2109EE7600065872 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7323DEF8210A0B1300440BD5 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		7323DEF9210A0B1300440BD5 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		733F8F832109EE7600065872 /* 2018-0726-testWebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2018-0726-testWebview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		733F8F862109EE7600065872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		733F8F872109EE7600065872 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				733F8F872109EE7600065872 /* AppDelegate.m */,
 				733F8F892109EE7600065872 /* ViewController.h */,
 				733F8F8A2109EE7600065872 /* ViewController.m */,
+				7323DEF8210A0B1300440BD5 /* ViewController2.h */,
+				7323DEF9210A0B1300440BD5 /* ViewController2.m */,
 				733F8F8C2109EE7600065872 /* Main.storyboard */,
 				733F8F8F2109EE7800065872 /* Assets.xcassets */,
 				733F8F912109EE7800065872 /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				733F8F8B2109EE7600065872 /* ViewController.m in Sources */,
+				7323DEFA210A0B1300440BD5 /* ViewController2.m in Sources */,
 				733F8F962109EE7800065872 /* main.m in Sources */,
 				733F8F882109EE7600065872 /* AppDelegate.m in Sources */,
 			);
