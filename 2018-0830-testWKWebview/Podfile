@@ -1,0 +1,6 @@
+platform :ios, ‘8.0’ 
+target '2018-0830-testWKWebview'do
+
+pod 'AFNetworking'
+
+end
